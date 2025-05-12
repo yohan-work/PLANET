@@ -30,9 +30,10 @@ const OrbitCircle = styled.div<OrbitCircleProps>`
   width: ${(props) => props.distance * 2}px;
   height: ${(props) => props.distance * 2}px;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   transform: translate(-50%, -50%);
   animation: ${revolve} ${(props) => props.orbitPeriod * 0.05}s linear infinite;
+  z-index: 1;
 `;
 
 const PlanetContainer = styled.div`

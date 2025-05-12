@@ -16,9 +16,9 @@ const SolarSystemContainer = styled.div`
 `;
 
 const SolarSystemContent = styled.div`
-  position: relative;
-  width: 800px;
-  height: 800px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
